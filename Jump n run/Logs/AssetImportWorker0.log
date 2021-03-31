@@ -1,0 +1,986 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/morizbuehler/Documents/Studium/2. Semester/Projektmanagement 2/Jump n run
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56705
+Successfully changed project path to: /Users/morizbuehler/Documents/Studium/2. Semester/Projektmanagement 2/Jump n run
+/Users/morizbuehler/Documents/Studium/2. Semester/Projektmanagement 2/Jump n run
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/morizbuehler/Documents/Studium/2. Semester/Projektmanagement 2/Jump n run/Assets
+GfxDevice: creating device client; threaded=0
+2021-03-31 10:02:32.927 Unity[4457:467561] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-03-31 10:02:32.927 Unity[4457:467561] Metal devices available: 1
+2021-03-31 10:02:32.927 Unity[4457:467561] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-03-31 10:02:32.928 Unity[4457:467561] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56457
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001034 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 40.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.455 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000532 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.867 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.8 MB.
+System memory in use after: 107.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1555.
+Total: 3.429679 ms (FindLiveObjects: 0.253086 ms CreateObjectMapping: 0.142397 ms MarkObjects: 2.911564 ms  DeleteObjects: 0.120947 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Assets
+  artifactKey: Guid(276d4d8f94a2642ef9710e97536fa4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets using Guid(276d4d8f94a2642ef9710e97536fa4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0e9507ef44e01d6298ee7f9be93771') in 0.037115 seconds
+  Import took 0.040142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.265799 seconds.
+  path: Assets/Assets
+  artifactKey: Guid(276d4d8f94a2642ef9710e97536fa4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets using Guid(276d4d8f94a2642ef9710e97536fa4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0e9507ef44e01d6298ee7f9be93771') in 0.001582 seconds
+  Import took 0.004273 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.845 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.9 MB.
+System memory in use after: 108.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1558.
+Total: 2.120631 ms (FindLiveObjects: 0.166789 ms CreateObjectMapping: 0.038158 ms MarkObjects: 1.850646 ms  DeleteObjects: 0.063561 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000701 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.588 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.8 MB.
+System memory in use after: 108.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1579.
+Total: 2.674985 ms (FindLiveObjects: 0.260432 ms CreateObjectMapping: 0.073359 ms MarkObjects: 2.267933 ms  DeleteObjects: 0.071779 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.987083 seconds.
+  path: Assets/Assets/Invector-3rdPersonController_LITE
+  artifactKey: Guid(5b5a1e7c44fe34b5094b6a5af9a024be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Invector-3rdPersonController_LITE using Guid(5b5a1e7c44fe34b5094b6a5af9a024be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c79fd1c8628a795451d9463bbfa90e') in 0.003429 seconds
+  Import took 0.005279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011595 seconds.
+  path: Assets/Assets/Invector-3rdPersonController_LITE
+  artifactKey: Guid(5b5a1e7c44fe34b5094b6a5af9a024be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Invector-3rdPersonController_LITE using Guid(5b5a1e7c44fe34b5094b6a5af9a024be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c79fd1c8628a795451d9463bbfa90e') in 0.000923 seconds
+  Import took 0.002851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.549542 seconds.
+  path: Assets/Assets/Invector-3rdPersonController_LITE/Prefabs
+  artifactKey: Guid(01c87ae00567e634fa11fbb4eb55ef89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Invector-3rdPersonController_LITE/Prefabs using Guid(01c87ae00567e634fa11fbb4eb55ef89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc47a204dbb77cfa54cdc9ae3ad84eaa') in 0.003574 seconds
+  Import took 0.006415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056561 seconds.
+  path: Assets/Assets/Invector-3rdPersonController_LITE/Prefabs/ThirdPersonController_LITE.prefab
+  artifactKey: Guid(fc9b148a2950aaf4cba8422632222c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Invector-3rdPersonController_LITE/Prefabs/ThirdPersonController_LITE.prefab using Guid(fc9b148a2950aaf4cba8422632222c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8181e3ea52e2edcd9ca740f6838564a8') in 2.464439 seconds
+  Import took 2.494450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Assets/Invector-3rdPersonController_LITE/Prefabs/vThirdPersonCamera_LITE.prefab
+  artifactKey: Guid(330efb0e9eed825408809c121441b8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Invector-3rdPersonController_LITE/Prefabs/vThirdPersonCamera_LITE.prefab using Guid(330efb0e9eed825408809c121441b8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce519746388b0c3dc93ced1ffa812d5') in 0.011161 seconds
+  Import took 0.014415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.549000 seconds.
+  path: Assets/Assets/Invector-3rdPersonController_LITE/Prefabs/ThirdPersonController_LITE.prefab
+  artifactKey: Guid(fc9b148a2950aaf4cba8422632222c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Invector-3rdPersonController_LITE/Prefabs/ThirdPersonController_LITE.prefab using Guid(fc9b148a2950aaf4cba8422632222c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8181e3ea52e2edcd9ca740f6838564a8') in 0.125703 seconds
+  Import took 0.138260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.118652 seconds.
+  path: Assets/Assets/Models
+  artifactKey: Guid(597791312023b4e09abadc4e903bcabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models using Guid(597791312023b4e09abadc4e903bcabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eace2f2031532d4126b0e48c73c4669') in 0.002642 seconds
+  Import took 0.005319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129216 seconds.
+  path: Assets/Assets/Models/Plattform1.fbx
+  artifactKey: Guid(19c23331b3d564e4fb32e46457e37c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Plattform1.fbx using Guid(19c23331b3d564e4fb32e46457e37c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb3150411d0554bf64db347f53c33eb') in 0.859013 seconds
+  Import took 0.864602 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001034 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.154 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 136.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1626.
+Total: 15.502046 ms (FindLiveObjects: 10.830810 ms CreateObjectMapping: 0.131914 ms MarkObjects: 3.617823 ms  DeleteObjects: 0.918163 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.000973 seconds.
+  path: Assets/Assets/Models/Tree.prefab
+  artifactKey: Guid(e0b16ff38111c4f059e236a4ed3613af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Tree.prefab using Guid(e0b16ff38111c4f059e236a4ed3613af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177e4db65db9bee02121e612356b91ff') in 0.279782 seconds
+  Import took 0.284407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005949 seconds.
+  path: Assets/Assets/Models/Tree.prefab
+  artifactKey: Guid(e0b16ff38111c4f059e236a4ed3613af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Tree.prefab using Guid(e0b16ff38111c4f059e236a4ed3613af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177e4db65db9bee02121e612356b91ff') in 0.056867 seconds
+  Import took 0.078959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.455073 seconds.
+  path: Assets/Assets/Models/PaneTree.prefab
+  artifactKey: Guid(28e58178dbf1c4fcd93401f9b8a5b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/PaneTree.prefab using Guid(28e58178dbf1c4fcd93401f9b8a5b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974c00e609337d9fa7d207610fe12d1f') in 0.021720 seconds
+  Import took 0.026956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030252 seconds.
+  path: Assets/Assets/Models/PaneTree.prefab
+  artifactKey: Guid(28e58178dbf1c4fcd93401f9b8a5b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/PaneTree.prefab using Guid(28e58178dbf1c4fcd93401f9b8a5b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974c00e609337d9fa7d207610fe12d1f') in 0.018013 seconds
+  Import took 0.021363 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000883 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.8 MB.
+System memory in use after: 136.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1630.
+Total: 2.830428 ms (FindLiveObjects: 0.254990 ms CreateObjectMapping: 0.074166 ms MarkObjects: 2.432008 ms  DeleteObjects: 0.067509 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000519 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.425 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.0 MB.
+System memory in use after: 137.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1633.
+Total: 3.890821 ms (FindLiveObjects: 0.199416 ms CreateObjectMapping: 0.039458 ms MarkObjects: 3.555745 ms  DeleteObjects: 0.093717 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000692 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.338 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.3 MB.
+System memory in use after: 137.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1638.
+Total: 3.968299 ms (FindLiveObjects: 0.327369 ms CreateObjectMapping: 0.068350 ms MarkObjects: 2.650413 ms  DeleteObjects: 0.919639 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 299.791750 seconds.
+  path: Assets/Nicrom
+  artifactKey: Guid(018e5677e99ba401295d639b54c76627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom using Guid(018e5677e99ba401295d639b54c76627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5b1e82d19f6b46597097ec35513da9') in 0.007130 seconds
+  Import took 0.010972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.959213 seconds.
+  path: Assets/Nicrom/PolyPacks
+  artifactKey: Guid(fe84e397e3d004fbcadbe68fffb38bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks using Guid(fe84e397e3d004fbcadbe68fffb38bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e1308a91626758c58ad6151a70d2c8') in 0.001522 seconds
+  Import took 0.006122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001723 seconds.
+  path: Assets/Nicrom/PolyPacks
+  artifactKey: Guid(fe84e397e3d004fbcadbe68fffb38bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks using Guid(fe84e397e3d004fbcadbe68fffb38bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e1308a91626758c58ad6151a70d2c8') in 0.001058 seconds
+  Import took 0.004456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.764145 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind
+  artifactKey: Guid(9fdceb2633930433fafb409edb619a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind using Guid(9fdceb2633930433fafb409edb619a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0b157232626d4d32e559a43cf8b649') in 0.002515 seconds
+  Import took 0.006038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind
+  artifactKey: Guid(9fdceb2633930433fafb409edb619a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind using Guid(9fdceb2633930433fafb409edb619a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0b157232626d4d32e559a43cf8b649') in 0.001649 seconds
+  Import took 0.004069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.235895 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs
+  artifactKey: Guid(cfc751ce1b94282458639bdc847d0744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs using Guid(cfc751ce1b94282458639bdc847d0744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bdef279da15792e0860e8164b930de') in 0.002547 seconds
+  Import took 0.005084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001325 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs
+  artifactKey: Guid(cfc751ce1b94282458639bdc847d0744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs using Guid(cfc751ce1b94282458639bdc847d0744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bdef279da15792e0860e8164b930de') in 0.002508 seconds
+  Import took 0.005859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062541 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Flower_A1_H70cm_01.prefab
+  artifactKey: Guid(962996e23ffcbc44d92fb20cd03940cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Flower_A1_H70cm_01.prefab using Guid(962996e23ffcbc44d92fb20cd03940cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d4b0c3088f458ea8d7afdf082ef45a') in 0.759616 seconds
+  Import took 0.763635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Tree_C1_11m_01.prefab
+  artifactKey: Guid(2510962d06f613b43a444e7178ccd6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Tree_C1_11m_01.prefab using Guid(2510962d06f613b43a444e7178ccd6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc575c29d4940ca37026287978ed2c55') in 0.030020 seconds
+  Import took 0.033099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Tree_C1_9m_01.prefab
+  artifactKey: Guid(4b4ea87231b37c148abee861d3c0001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Tree_C1_9m_01.prefab using Guid(4b4ea87231b37c148abee861d3c0001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8fbaef2f5acf04237d57e23503104b') in 0.042361 seconds
+  Import took 0.045766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001056 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Grass_A1_40cm_01.prefab
+  artifactKey: Guid(b995a96a7ca36d04b851e46870b5aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Grass_A1_40cm_01.prefab using Guid(b995a96a7ca36d04b851e46870b5aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed34c3fd5dc35ed9477b9e7070eabea2') in 0.058361 seconds
+  Import took 0.064124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Tree_B1_9m_02.prefab
+  artifactKey: Guid(d76f8cf6d6d23834d97c23574821f38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Tree_B1_9m_02.prefab using Guid(d76f8cf6d6d23834d97c23574821f38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e6171580920b46242f623146dee6f1') in 0.050432 seconds
+  Import took 0.055693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Rock_Wall_A1_01.prefab
+  artifactKey: Guid(25cb56d59f80f614b9da0e9a36c48a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Rock_Wall_A1_01.prefab using Guid(25cb56d59f80f614b9da0e9a36c48a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31e5721723aa48b302737299a3fa7df') in 0.024503 seconds
+  Import took 0.030277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007452 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Grass_A1_50cm_01.prefab
+  artifactKey: Guid(9c6178fe943216540b276b975dafae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Grass_A1_50cm_01.prefab using Guid(9c6178fe943216540b276b975dafae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c38fe978954ebb470238da6b1c2c59') in 0.048705 seconds
+  Import took 0.053774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Tree_B1_9m_01.prefab
+  artifactKey: Guid(9787e9e0fbeb87a45beb0d9d4e03edca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Tree_B1_9m_01.prefab using Guid(9787e9e0fbeb87a45beb0d9d4e03edca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562600a9121be1091d00fd3bc5e9029f') in 0.025499 seconds
+  Import took 0.030343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001471 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Ground_A1_100x100_01.prefab
+  artifactKey: Guid(e4b7ee855e6fe0640ae15f3068cf68d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Ground_A1_100x100_01.prefab using Guid(e4b7ee855e6fe0640ae15f3068cf68d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e16f58723d8298e99b080acb6b4ebe2') in 0.063518 seconds
+  Import took 0.066906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Rock_Boulder_A1_01.prefab
+  artifactKey: Guid(aa0ba387f794005419a74fdfff3da4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Rock_Boulder_A1_01.prefab using Guid(aa0ba387f794005419a74fdfff3da4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c8a4a2b0d8a2938cc0eca678d3a516') in 0.042752 seconds
+  Import took 0.046650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Tree_A1_6.5m_01.prefab
+  artifactKey: Guid(2caeb99d3229fee4aa4f3bc8c1c8fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/_Prefabs/LPW_Tree_A1_6.5m_01.prefab using Guid(2caeb99d3229fee4aa4f3bc8c1c8fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1018ee0ce18422688247e58c8fa14b') in 0.022327 seconds
+  Import took 0.026338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.693901 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Demo
+  artifactKey: Guid(d82c3d80cfc5ed0478a0713002afa52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Demo using Guid(d82c3d80cfc5ed0478a0713002afa52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c933f9b472b9c68b6ee606f9effdcfac') in 0.003494 seconds
+  Import took 0.007772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.842713 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Demo/LPW_Prefabs.unity
+  artifactKey: Guid(b1d1fa2b5aa74b8409b7db2947b6d448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Demo/LPW_Prefabs.unity using Guid(b1d1fa2b5aa74b8409b7db2947b6d448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f4ec9aee8fbc93ab674dcb1a662672') in 0.002984 seconds
+  Import took 0.006883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001052 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Demo/LPW_Prefabs.unity
+  artifactKey: Guid(b1d1fa2b5aa74b8409b7db2947b6d448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Demo/LPW_Prefabs.unity using Guid(b1d1fa2b5aa74b8409b7db2947b6d448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f4ec9aee8fbc93ab674dcb1a662672') in 0.002031 seconds
+  Import took 0.004132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.788195 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Demo/PPP
+  artifactKey: Guid(3c62a438dae04ed4e8028d7fa482ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Demo/PPP using Guid(3c62a438dae04ed4e8028d7fa482ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8da395dad3c39a27eba8829fa23b59') in 0.001609 seconds
+  Import took 0.005415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091087 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Demo/PPP/LPW_PPP_01.asset
+  artifactKey: Guid(9cbdbe2439b334c48b0a50962b36ab83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Demo/PPP/LPW_PPP_01.asset using Guid(9cbdbe2439b334c48b0a50962b36ab83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b9c28c6bd2f2036e88addc059d7c53') in 0.189741 seconds
+  Import took 0.192057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.762463 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets
+  artifactKey: Guid(37cbde719924a2243a0bba26926d1a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets using Guid(37cbde719924a2243a0bba26926d1a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdc40325ac2cc9e1b1ec0d917f5c9e6') in 0.002340 seconds
+  Import took 0.005874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.184803 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Materials
+  artifactKey: Guid(bb3f34dab8cd9b748a9b31248949d0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Materials using Guid(bb3f34dab8cd9b748a9b31248949d0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b3c908d288f19e2208ce313098debc') in 0.002232 seconds
+  Import took 0.006472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093391 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Flower_A1_01.mat
+  artifactKey: Guid(426667a7d6a2f5b4eb289cdb68d8960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Flower_A1_01.mat using Guid(426667a7d6a2f5b4eb289cdb68d8960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b1867c329e3b97124586731ef32d91') in 0.187357 seconds
+  Import took 0.190909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Tree_B1_01.mat
+  artifactKey: Guid(47a97533683d1a2419a6086fdc251eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Tree_B1_01.mat using Guid(47a97533683d1a2419a6086fdc251eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850041f7be71c050a6044bcc4de23826') in 0.032975 seconds
+  Import took 0.035629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_TextureAtlas_01.mat
+  artifactKey: Guid(48193fab71b29ba49b4f5e803f5b1d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_TextureAtlas_01.mat using Guid(48193fab71b29ba49b4f5e803f5b1d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4ad77778dc8381aff6856cad78aac6') in 0.033929 seconds
+  Import took 0.039729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Grass_A1_01.mat
+  artifactKey: Guid(f3c124f836b5e5340a91904bbaa1bf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Grass_A1_01.mat using Guid(f3c124f836b5e5340a91904bbaa1bf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ae324e6e669cb1bd87c040b7125f22') in 0.044670 seconds
+  Import took 0.049909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Ground_02.mat
+  artifactKey: Guid(3d8367cece3b5b94b9fefc8fddb97cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Ground_02.mat using Guid(3d8367cece3b5b94b9fefc8fddb97cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b811a30a39b03ab5a2858a287c8d36e') in 0.028189 seconds
+  Import took 0.031357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Ground_01.mat
+  artifactKey: Guid(4b3131f86be235f4e9c1df1a9b9057ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Ground_01.mat using Guid(4b3131f86be235f4e9c1df1a9b9057ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e300eb6e47e7d39f8a8248fa82a156') in 0.020698 seconds
+  Import took 0.023751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Tree_A1_01.mat
+  artifactKey: Guid(927609256dc40a34691e6a870845e7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Tree_A1_01.mat using Guid(927609256dc40a34691e6a870845e7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8641291cbe286b87baed8981161475') in 0.016940 seconds
+  Import took 0.021333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Tree_C1_01.mat
+  artifactKey: Guid(790a32d6fe431f24d95e325e93a8af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Tree_C1_01.mat using Guid(790a32d6fe431f24d95e325e93a8af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328633145e198b4b90c27cc00060c680') in 0.017482 seconds
+  Import took 0.021110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023529 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Ground_02.mat
+  artifactKey: Guid(3d8367cece3b5b94b9fefc8fddb97cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Materials/LPW_Ground_02.mat using Guid(3d8367cece3b5b94b9fefc8fddb97cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b811a30a39b03ab5a2858a287c8d36e') in 0.014272 seconds
+  Import took 0.020879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.802224 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Shaders
+  artifactKey: Guid(6fcfeb72b5b3ca14693102852b6932c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Shaders using Guid(6fcfeb72b5b3ca14693102852b6932c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c389a1f92c926d7c3cbac21ebe7e8c56') in 0.001605 seconds
+  Import took 0.004441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.989882 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Shaders/ASE
+  artifactKey: Guid(89752cc2a2b32f248b1d97702caaf210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Shaders/ASE using Guid(89752cc2a2b32f248b1d97702caaf210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72cf8575732a8088ae7f3cb6d4f957a') in 0.003231 seconds
+  Import took 0.007273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.209468 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Textures
+  artifactKey: Guid(bfeb84e72e6ebb24f836486fb7e3ce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Textures using Guid(bfeb84e72e6ebb24f836486fb7e3ce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d42d76d95acea0846aa4f988bafb908') in 0.002896 seconds
+  Import took 0.006267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077270 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Textures/LPW_NoiseMap_01.png
+  artifactKey: Guid(325d48ff66bae3245b768b66049c7718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Textures/LPW_NoiseMap_01.png using Guid(325d48ff66bae3245b768b66049c7718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee56ff2100b99c68474cb085b7e95cb8') in 0.982594 seconds
+  Import took 0.984852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Textures/LPW_TextureAtlas_01.png
+  artifactKey: Guid(225da740038919f4ca9eaff413945956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Textures/LPW_TextureAtlas_01.png using Guid(225da740038919f4ca9eaff413945956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0d929eae906e6c5f6787b89bf5f2cb') in 0.008418 seconds
+  Import took 0.013041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.849426 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Scripts
+  artifactKey: Guid(7bad945d89c8b574fa0ac3711747efff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Scripts using Guid(7bad945d89c8b574fa0ac3711747efff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe44970331a1410d10876162c7c5aac') in 0.003178 seconds
+  Import took 0.006305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.171844 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models
+  artifactKey: Guid(a53e5d2d977b5be498c11ea351581ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models using Guid(a53e5d2d977b5be498c11ea351581ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ab18a5c5b46cc58c94a857c30489ad') in 0.002325 seconds
+  Import took 0.005464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063835 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Flower_A1_H70cm_01.fbx
+  artifactKey: Guid(9715bf1e661b47842977d36abed88781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Flower_A1_H70cm_01.fbx using Guid(9715bf1e661b47842977d36abed88781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafb096d9f44eff05cb4d125b7e84329') in 0.061452 seconds
+  Import took 0.064093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Tree_C1_9m_01.fbx
+  artifactKey: Guid(80d15eccca9181a4386c007b45199982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Tree_C1_9m_01.fbx using Guid(80d15eccca9181a4386c007b45199982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72da0d19d05399459cf858d6e6f1fc2a') in 0.040930 seconds
+  Import took 0.042923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Grass_A1_50cm_01.fbx
+  artifactKey: Guid(02e48aea181058a47acc4c8a06b88f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Grass_A1_50cm_01.fbx using Guid(02e48aea181058a47acc4c8a06b88f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba45f0c3da95b17cf0fd75e568974496') in 0.088367 seconds
+  Import took 0.090404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Rock_Boulder_A1_01.fbx
+  artifactKey: Guid(f3a70418971d85f47a436c1493b944d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Rock_Boulder_A1_01.fbx using Guid(f3a70418971d85f47a436c1493b944d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2116a616ab6330a59f9a04f227679d') in 0.018917 seconds
+  Import took 0.021899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Rock_Wall_A1_01.fbx
+  artifactKey: Guid(21e4e23f629a66042b0804449f9cdf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Rock_Wall_A1_01.fbx using Guid(21e4e23f629a66042b0804449f9cdf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c40bfb8bad1311debf76b2897ece90b') in 0.065855 seconds
+  Import took 0.068732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Tree_B1_9m_02.fbx
+  artifactKey: Guid(4acbe20131f3a684c914f20a1194b751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Tree_B1_9m_02.fbx using Guid(4acbe20131f3a684c914f20a1194b751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72573fa83f1cae2c8afac47c012abd8b') in 0.034070 seconds
+  Import took 0.036603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Grass_A1_40cm_01.fbx
+  artifactKey: Guid(2b44582523d7fdf48ae9a30dd4e38897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Grass_A1_40cm_01.fbx using Guid(2b44582523d7fdf48ae9a30dd4e38897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f910bbbbf92d793bc04a8a1deffe856') in 0.051311 seconds
+  Import took 0.053938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Tree_C1_11m_01.fbx
+  artifactKey: Guid(e27c287717052ac4b903c9f886180c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Tree_C1_11m_01.fbx using Guid(e27c287717052ac4b903c9f886180c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686dfdc017c5d82c1b8984959c6fb1a1') in 0.036901 seconds
+  Import took 0.040831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Tree_B1_9m_01.fbx
+  artifactKey: Guid(086866415dea3c64bb043c7b9c5d5a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Tree_B1_9m_01.fbx using Guid(086866415dea3c64bb043c7b9c5d5a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8532865ea9ba5080834a211724c98db') in 0.029606 seconds
+  Import took 0.032117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Ground_A1_100x100_02.fbx
+  artifactKey: Guid(9900244c1a644074d9fb129310a0542b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Ground_A1_100x100_02.fbx using Guid(9900244c1a644074d9fb129310a0542b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f12ea7ffb12170af2736b363371ed8f') in 0.085289 seconds
+  Import took 0.088247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Ground_A1_100x100_01.fbx
+  artifactKey: Guid(dbc5577fb32b294459a6c2b9d3f4d366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Ground_A1_100x100_01.fbx using Guid(dbc5577fb32b294459a6c2b9d3f4d366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d046e57face353184ff25729a15061') in 0.054517 seconds
+  Import took 0.058252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Tree_A1_6.5m_01.fbx
+  artifactKey: Guid(394ff57e6222f6a49b8053a8947975ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Tree_A1_6.5m_01.fbx using Guid(394ff57e6222f6a49b8053a8947975ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09deefcfa89b5aa55f1e09b8e5d3f6ad') in 0.037721 seconds
+  Import took 0.040502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035089 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Tree_A1_6.5m_01.fbx
+  artifactKey: Guid(394ff57e6222f6a49b8053a8947975ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Tree_A1_6.5m_01.fbx using Guid(394ff57e6222f6a49b8053a8947975ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09deefcfa89b5aa55f1e09b8e5d3f6ad') in 0.025742 seconds
+  Import took 0.029182 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000941 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.185 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.3 MB.
+System memory in use after: 152.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1645.
+Total: 1.943450 ms (FindLiveObjects: 0.154525 ms CreateObjectMapping: 0.037559 ms MarkObjects: 1.688397 ms  DeleteObjects: 0.061633 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 274.962133 seconds.
+  path: Assets/Assets/New Material.mat
+  artifactKey: Guid(a088c64bf10d64cbf9eee3eb3128cf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Material.mat using Guid(a088c64bf10d64cbf9eee3eb3128cf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9562757108229344bfb26bde2fc279a1') in 0.102308 seconds
+  Import took 0.105110 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000772 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.211 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.4 MB.
+System memory in use after: 152.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1649.
+Total: 2.566810 ms (FindLiveObjects: 0.275626 ms CreateObjectMapping: 0.058137 ms MarkObjects: 2.128703 ms  DeleteObjects: 0.102190 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001262 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.6 MB.
+System memory in use after: 152.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1652.
+Total: 3.036723 ms (FindLiveObjects: 0.377811 ms CreateObjectMapping: 0.084584 ms MarkObjects: 2.499288 ms  DeleteObjects: 0.073250 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000434 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.8 MB.
+System memory in use after: 152.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1655.
+Total: 2.257953 ms (FindLiveObjects: 0.310574 ms CreateObjectMapping: 0.062235 ms MarkObjects: 1.821804 ms  DeleteObjects: 0.059883 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000654 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.016 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.0 MB.
+System memory in use after: 153.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1659.
+Total: 2.341556 ms (FindLiveObjects: 0.296049 ms CreateObjectMapping: 0.061295 ms MarkObjects: 1.921168 ms  DeleteObjects: 0.061317 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000992 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.526 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.2 MB.
+System memory in use after: 153.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1663.
+Total: 3.527165 ms (FindLiveObjects: 0.261368 ms CreateObjectMapping: 0.066435 ms MarkObjects: 2.803292 ms  DeleteObjects: 0.394160 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2565.915442 seconds.
+  path: Assets/GameManager.cs
+  artifactKey: Guid(c1eeafceee09a4c31903e1da9553add6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameManager.cs using Guid(c1eeafceee09a4c31903e1da9553add6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175b7e4b20c7a577b50af48ec98b0381') in 0.581525 seconds
+  Import took 0.584904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.345322 seconds.
+  path: Assets/endtrigger.cs
+  artifactKey: Guid(950b1567a414c4b769f0574f5fdacbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/endtrigger.cs using Guid(950b1567a414c4b769f0574f5fdacbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d77e7ce515d7b7a367d2e3ca10abb65') in 0.003897 seconds
+  Import took 0.006842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000666 seconds.
+  path: Assets/endtrigger.cs
+  artifactKey: Guid(950b1567a414c4b769f0574f5fdacbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/endtrigger.cs using Guid(950b1567a414c4b769f0574f5fdacbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d77e7ce515d7b7a367d2e3ca10abb65') in 0.002223 seconds
+  Import took 0.006161 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000711 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.454 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.6 MB.
+System memory in use after: 157.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1664.
+Total: 3.245701 ms (FindLiveObjects: 0.263343 ms CreateObjectMapping: 0.070637 ms MarkObjects: 2.835346 ms  DeleteObjects: 0.074594 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000747 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.163 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.8 MB.
+System memory in use after: 157.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1667.
+Total: 1.999633 ms (FindLiveObjects: 0.332568 ms CreateObjectMapping: 0.076321 ms MarkObjects: 1.532732 ms  DeleteObjects: 0.056554 ms)
+
