@@ -1,9 +1,0 @@
-How To use in unity:
--File-Build Settings... klicken
--Scenes (Level) hinzufügen
--Mach nen neues Objekt (cube oder so)
--Mesh Render weg machen
--Collider is Trigger ankaken
--Script drauf ziehen 
-
--done ;)
