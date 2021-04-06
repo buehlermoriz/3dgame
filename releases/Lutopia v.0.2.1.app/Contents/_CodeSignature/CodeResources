@@ -374,7 +374,7 @@
 		</data>
 		<key>Resources/Data/Resources/unity_builtin_extra</key>
 		<data>
-		1CPSzijWkwBZnVAjj5sxzfVKBk4=
+		b+uCKfjTW4YkSW7aKkK4KHwdIcI=
 		</data>
 		<key>Resources/Data/RuntimeInitializeOnLoads.json</key>
 		<data>
@@ -394,11 +394,11 @@
 		</data>
 		<key>Resources/Data/globalgamemanagers</key>
 		<data>
-		wEiMLgQhHqml4hvJ1l5DqTmjQ20=
+		BkvAkpgGMbu7PN02aQkavBzjMJY=
 		</data>
 		<key>Resources/Data/globalgamemanagers.assets</key>
 		<data>
-		e3JzpTNfvYIFBonswjpAHrMaXVU=
+		2IRPCot1H2qs4YLhHeATIIVfTF0=
 		</data>
 		<key>Resources/Data/level0</key>
 		<data>
@@ -418,7 +418,7 @@
 		</data>
 		<key>Resources/Data/resources.assets</key>
 		<data>
-		2i8vFjEigT4BV9Tg+O8krKfO0Kw=
+		kLf2KiFhY7EDxrsMGHSLl5OnIEc=
 		</data>
 		<key>Resources/Data/resources.assets.resS</key>
 		<data>
@@ -430,7 +430,7 @@
 		</data>
 		<key>Resources/Data/sharedassets0.assets</key>
 		<data>
-		I9aoWtASHlYroSeubIEThI19Etk=
+		0+Nj4ZQb7YxXbKKUzdCKvIPnqeg=
 		</data>
 		<key>Resources/Data/sharedassets0.assets.resS</key>
 		<data>
@@ -438,7 +438,7 @@
 		</data>
 		<key>Resources/Data/sharedassets1.assets</key>
 		<data>
-		qyONiLVHf8Rw5unixQOlsOt5jv0=
+		5mzfZORrtgR54y2Ns54A9ObEYgs=
 		</data>
 		<key>Resources/Data/sharedassets1.assets.resS</key>
 		<data>
@@ -455,6 +455,10 @@
 		<key>Resources/MainMenu.nib/keyedobjects.nib</key>
 		<data>
 		0pKU0tdl1Ei4v7c0cAAQPj+MzEY=
+		</data>
+		<key>Resources/PlayerIcon.icns</key>
+		<data>
+		Wj14ygIv9Pn3/GNSNDpUBCRST7c=
 		</data>
 		<key>Resources/unity default resources</key>
 		<data>
@@ -1264,7 +1268,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UP1yAwLq19ZPR4WKomL/yomlUF3Z9V4LVJh5+T6rPDI=
+			Mb8y6v4rBYh2AE3B/KxXP4B3r6h9v3UI4D9tO1Yv18s=
 			</data>
 		</dict>
 		<key>Resources/Data/RuntimeInitializeOnLoads.json</key>
@@ -1299,14 +1303,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JWOhJtIKhCF/8SAhLvev+bhuVrChsC4fpFj+bJBDHLQ=
+			+0ZR8yxKeojISfagWPMw46zA8y6lW3pPp40sVboAskY=
 			</data>
 		</dict>
 		<key>Resources/Data/globalgamemanagers.assets</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			20BhZgIqIamJMKfz+X+AmGVVLnxVvjBBdFwaGEKT7Ks=
+			DIhEgflVd2XCSenaZ9YOvsaDVnMXcJlm1fwZRFlo0/Q=
 			</data>
 		</dict>
 		<key>Resources/Data/level0</key>
@@ -1341,7 +1345,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BdLwuv4NAXoWHyeRp2zzugupr1xExnTGKuGlLtuRWc4=
+			3sgzEkc27w/6Bgiqpn4V9RlMC1G6rSmA0MzrvIZt8RU=
 			</data>
 		</dict>
 		<key>Resources/Data/resources.assets.resS</key>
@@ -1362,7 +1366,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bxPz1I5VcDjvwp13nvywtcvZH2PMAKQh2p60SrC7r/s=
+			Bh5zGUU9LCUY64H89opbPlM0cBQMS3iNIxl6O1gs7Dk=
 			</data>
 		</dict>
 		<key>Resources/Data/sharedassets0.assets.resS</key>
@@ -1376,7 +1380,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yIQKaGHQlorN41BnYCcrYkHf4GAbt72nJvoy8GupOYI=
+			vLGZEK+2csqKS63xl9l6qsu61vR5zh1kVfQb3YoZ6LA=
 			</data>
 		</dict>
 		<key>Resources/Data/sharedassets1.assets.resS</key>
@@ -1405,6 +1409,13 @@
 			<key>hash2</key>
 			<data>
 			H65bfG7psXp2exY2hnpBs+ROr49lSxxeLK+jJhRjEE0=
+			</data>
+		</dict>
+		<key>Resources/PlayerIcon.icns</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WFFhPTvwIoOGX+uqPhEhUGBg71cXUubumOBte1CAbxY=
 			</data>
 		</dict>
 		<key>Resources/unity default resources</key>
