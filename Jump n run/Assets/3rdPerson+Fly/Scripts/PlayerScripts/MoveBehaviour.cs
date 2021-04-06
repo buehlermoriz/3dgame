@@ -8,8 +8,8 @@ public class MoveBehaviour : GenericBehaviour
 	private float sprintSpeed = 1.5f;                // Default sprint speed.
 	private float speedDampTime = 0f;              // Default damp time to change the animations based on current speed.
 	private string jumpButton = "Jump";              // Default jump button.
-	private float jumpHeight = 1.5f;                 // Default jump height.
-	private float jumpIntertialForce = 5f;          // Default horizontal inertial force when jumping.
+	private float jumpHeight = 2f;                 // Default jump height.
+	private float jumpIntertialForce = 5.5f;          // Default horizontal inertial force when jumping.
 
 	private float speed, speedSeeker;               // Moving speed.
 	private int jumpBool;                           // Animator variable related to jumping.
