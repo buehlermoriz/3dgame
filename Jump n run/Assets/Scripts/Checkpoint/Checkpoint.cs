@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour {
     public Transform checkpoint;
-    GameObject player;
+     GameObject player;
 	void Start () {
 
         player = GameObject.FindWithTag("Player");
@@ -15,6 +15,7 @@ public class Checkpoint : MonoBehaviour {
         {
             
             player.transform.position = checkpoint.position;
+            player.transform.rotation = checkpoint.rotation;
             
 
         }
