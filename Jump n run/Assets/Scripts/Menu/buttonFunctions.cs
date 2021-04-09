@@ -15,14 +15,18 @@ public class buttonFunctions : MonoBehaviour
 
     public void resumeGame()
     {
+
         if (!PlayerPrefs.HasKey("lastLevel"))
         {
             Debug.Log("You have not reached a checkpoint yet.");
         }
         else if (PlayerPrefs.HasKey("lastLevel"))
         {
-            Debug.Log("Loading next scene.");
+            PlayerPrefs.SetInt("resume", 1);
             SceneManager.LoadScene(PlayerPrefs.GetInt("lastLevel"));
+
+
+            Debug.Log("Loading next scene.");
         }
     }
 
