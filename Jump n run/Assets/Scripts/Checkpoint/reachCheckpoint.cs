@@ -5,21 +5,29 @@ using UnityEngine;
 public class reachCheckpoint : MonoBehaviour
 {
 public GameObject DisplayCheckpointMessage;
-public static bool disabled = true;
-    GameObject player;
-	void Start () {
+GameObject player;
+private bool CheckpointBereitsErreicht = false; 
 
-        player = GameObject.FindWithTag("Player");
-	}
+void Start () {
+    DisplayCheckpointMessage.SetActive(false);
+    player = GameObject.FindWithTag("Player"); 
+    
+}
     void OnTriggerEnter (Collider plyr) {
-		if(plyr.gameObject.tag == "Player")
-        {
-        DisplayCheckpointMessage.SetActive(false);
-        }
-        else
-        {
-            DisplayCheckpointMessage.SetActive(true);
-        }
+        if(CheckpointBereitsErreicht == false){
+    if(plyr.gameObject.tag == "Player"){  
+    DisplayCheckpointMessage.SetActive(true); 
+    StartCoroutine(ExecuteAfterTime(3));
+    CheckpointBereitsErreicht = true;
     }
+}
 
+
+IEnumerator ExecuteAfterTime(float time){
+        yield return new WaitForSeconds(time);
+        DisplayCheckpointMessage.SetActive(false);
+
+    }
+    
+}
 }
