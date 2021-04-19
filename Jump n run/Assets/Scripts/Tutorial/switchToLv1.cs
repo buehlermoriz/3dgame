@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class switchToLv1 : MonoBehaviour
 {
-  public  GameObject player;
-  public GameObject Fadeblack;
+  private  GameObject player;
+ public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,8 +15,18 @@ public class switchToLv1 : MonoBehaviour
         void OnTriggerEnter (Collider plyr) {
         if (plyr.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            
+            fade();
+            StartCoroutine(changeLevel(2));
+
         }
+    
+    }
+    public void fade (){
+        animator.SetTrigger("fadeOut");
+
+    }
+    IEnumerator changeLevel(float time){
+        yield return new WaitForSeconds(time);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
