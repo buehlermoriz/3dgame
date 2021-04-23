@@ -46,6 +46,7 @@ public class escapeToMenu : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            FindObjectOfType<AudioManager>().Play("click");
             //saving the current level and player coordinates to be used when the user presses "Resume" in the game menu
             PlayerPrefs.SetInt("lastLevel", SceneManager.GetActiveScene().buildIndex);
             PlayerPrefs.SetFloat("x", player.transform.position.x);
