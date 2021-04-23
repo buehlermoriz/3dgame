@@ -8,8 +8,14 @@ public GameObject DisplayGilderInteraction;
 public Animator animator;
 
 GameObject player;
-private bool ObjectCollected = false; 
- 
+
+private bool ObjectCollected = false;
+private AudioManager sound;
+
+ void Awake()
+    {
+       sound = FindObjectOfType<AudioManager>();
+    }
 
 void Start () {
    DisplayGilderInteraction.SetActive(false);
@@ -19,6 +25,7 @@ void Start () {
     void OnTriggerEnter (Collider plyr) {
         if(ObjectCollected == false){
     if(plyr.gameObject.tag == "Player"){  
+         sound.Play("collectObject");
     DisplayGilderInteraction.SetActive(true); 
     fade();
     StartCoroutine(ExecuteAfterTime(3));
