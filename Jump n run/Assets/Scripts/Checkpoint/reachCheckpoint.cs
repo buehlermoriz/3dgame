@@ -5,8 +5,16 @@ using UnityEngine;
 public class reachCheckpoint : MonoBehaviour
 {
 public GameObject DisplayCheckpointMessage;
+
 GameObject player;
+
 private bool CheckpointBereitsErreicht = false; 
+private AudioManager sound;
+
+ void Awake()
+    {
+       sound = FindObjectOfType<AudioManager>();
+    }
 
 void Start () {
     DisplayCheckpointMessage.SetActive(false);
@@ -16,6 +24,7 @@ void Start () {
     void OnTriggerEnter (Collider plyr) {
         if(CheckpointBereitsErreicht == false){
     if(plyr.gameObject.tag == "Player"){  
+           sound.Play("Checkpoint");
     DisplayCheckpointMessage.SetActive(true); 
     StartCoroutine(ExecuteAfterTime(3));
     CheckpointBereitsErreicht = true;
