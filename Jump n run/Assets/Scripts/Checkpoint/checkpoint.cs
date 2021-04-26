@@ -8,4 +8,5 @@ public class checkpoint
     public bool active;
     public int index;
     
+    
 }
