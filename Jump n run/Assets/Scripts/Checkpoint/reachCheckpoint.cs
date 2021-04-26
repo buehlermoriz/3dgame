@@ -8,7 +8,7 @@ public GameObject DisplayCheckpointMessage;
 
 GameObject player;
 
-private bool CheckpointBereitsErreicht = false; 
+private bool checkpointReached = false; 
 private AudioManager sound;
 
  void Awake()
@@ -22,12 +22,12 @@ void Start () {
     
 }
     void OnTriggerEnter (Collider plyr) {
-        if(CheckpointBereitsErreicht == false){
+        if(checkpointReached == false){
     if(plyr.gameObject.tag == "Player"){  
-           sound.Play("Checkpoint");
+           sound.Play("checkpoint");
     DisplayCheckpointMessage.SetActive(true); 
     StartCoroutine(ExecuteAfterTime(3));
-    CheckpointBereitsErreicht = true;
+    checkpointReached = true;
     }
 }
 
