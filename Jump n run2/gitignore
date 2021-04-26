@@ -51,6 +51,8 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+#Apple generated meta files
+*.iCloud
 
 # Unity3D generated file on crash reports
 sysinfo.txt
