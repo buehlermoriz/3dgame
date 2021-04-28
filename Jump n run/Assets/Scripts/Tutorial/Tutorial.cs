@@ -16,6 +16,8 @@ private string currentObjective = "wasd";
 
 GameObject player;
 
+
+
 void Start () {
     DisplayTutorialMessageWASD.SetActive(true);
     DisplayTutorialMessageShift.SetActive(false);
