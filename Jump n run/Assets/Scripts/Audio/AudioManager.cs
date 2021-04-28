@@ -51,10 +51,12 @@ public class AudioManager : MonoBehaviour
         s.isPlaying = false;
     }
 
+
+
     //for playing reactive sounds
     void Update()
     {
-
+        //walking
         if (Input.GetKeyDown("w"))
         {
             Play("walking");
@@ -66,7 +68,7 @@ public class AudioManager : MonoBehaviour
             print("stop walking");
         }
 
-
+        //jumping
         if (Input.GetKeyDown("space"))
         {
             Play("jump");
@@ -78,6 +80,19 @@ public class AudioManager : MonoBehaviour
             print("stop jump");
         }
 
+        //running
+        if (Input.GetKeyDown("left shift"))
+        {
+            Stop("walking");
+            Play("running");
+            print("start running");
+        }
+        if (Input.GetKeyUp("left shift"))
+        {
+            Stop("running");
+            Play("walking");
+            print("stop running");
+        }
     }
 
 
