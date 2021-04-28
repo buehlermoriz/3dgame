@@ -22,7 +22,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    public void Play(string name)
+    public void PlayLoop(string name)
     {
 
         Sound s = Array.Find(sounds, sound => sound.name == name);
@@ -35,8 +35,26 @@ public class AudioManager : MonoBehaviour
         {
             s.source.Play();
             s.isPlaying = true;
+            s.source.loop = true;
         }
     }
+
+    public void Play(string name)
+    {
+
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        if (s == null)
+        {
+            Debug.Log("Sound: '" + name + "' not found");
+            return;
+        }
+        if (!s.isPlaying)
+        {
+            s.source.Play();
+            s.isPlaying = true;
+        }
+    }
+
 
     public void Stop(string name)
     {
@@ -57,17 +75,40 @@ public class AudioManager : MonoBehaviour
     void Update()
     {
         //walking
-        if (Input.GetKeyDown("w") || Input.GetKeyDown("a") || Input.GetKeyDown("d"))
+        if (Input.GetKeyDown("w"))
         {
-            Play("walking");
+            PlayLoop("walking");
             print("start walking");
         }
-        if (Input.GetKeyUp("w") | Input.GetKeyUp("a") | Input.GetKeyUp("d"))
+        if (Input.GetKeyUp("w"))
         {
             Stop("walking");
             print("stop walking");
         }
 
+        // left
+        if (Input.GetKeyDown("a"))
+        {
+            PlayLoop("walking");
+            print("start walking");
+        }
+        if (Input.GetKeyUp("a"))
+        {
+            Stop("walking");
+            print("stop walking");
+        }
+
+        // right
+        if (Input.GetKeyDown("d"))
+        {
+            PlayLoop("walking");
+            print("start walking");
+        }
+        if (Input.GetKeyUp("d"))
+        {
+            Stop("walking");
+            print("stop walking");
+        }
         //jumping
         if (Input.GetKeyDown("space"))
         {
@@ -79,7 +120,7 @@ public class AudioManager : MonoBehaviour
         if (Input.GetKeyUp("space"))
         {
             Stop("jump");
-            //Play("walking");
+            Play("walking");
             print("stop jump");
         }
 
@@ -87,13 +128,12 @@ public class AudioManager : MonoBehaviour
         if (Input.GetKeyDown("left shift"))
         {
             Stop("walking");
-            Play("running");
+            PlayLoop("running");
             print("start running");
         }
         if (Input.GetKeyUp("left shift"))
         {
             Stop("running");
-            Play("walking");
             print("stop running");
         }
     }
