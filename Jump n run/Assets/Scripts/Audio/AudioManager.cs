@@ -7,6 +7,8 @@ public class AudioManager : MonoBehaviour
 
     public Sound[] sounds;
 
+    private string keyInput;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -52,18 +54,32 @@ public class AudioManager : MonoBehaviour
     //for playing reactive sounds
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+
+        if (Input.GetKeyDown("w"))
         {
-            Play("click");
-            Debug.Log("Space key was pressed");
+            Play("walking");
+            print("start walking");
+        }
+        if (Input.GetKeyUp("w"))
+        {
+            Stop("walking");
+            print("stop walking");
         }
 
+
+        if (Input.GetKeyDown("space"))
+        {
+            Play("jump");
+            print("start jump");
+        }
         if (Input.GetKeyUp("space"))
         {
-            Stop("click");
-            print("Space key was released");
+            Stop("jump");
+            print("stop jump");
         }
+
     }
-    
+
+
 
 }
