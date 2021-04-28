@@ -9,9 +9,16 @@ public class AudioManager : MonoBehaviour
 
     private string keyInput;
 
+    private int walkCounter;
+
+    private bool walkingActive = false;
+
+    private bool sprintAcive = false;
+
     // Start is called before the first frame update
     void Awake()
     {
+        walkCounter = 0;
 
         foreach (Sound s in sounds)
         {
@@ -69,46 +76,34 @@ public class AudioManager : MonoBehaviour
         s.isPlaying = false;
     }
 
-
-
     //for playing reactive sounds
     void Update()
     {
         //walking
-        if (Input.GetKeyDown("w"))
+        if (Input.GetKeyDown("w") || Input.GetKeyDown("a") || Input.GetKeyDown("d"))
         {
-            PlayLoop("walking");
-            print("start walking");
+            walkCounter++;
+
+            if (sprintAcive == false)
+            {
+                walkingActive = true;
+                PlayLoop("walking");
+                print("start walking");
+            }
         }
-        if (Input.GetKeyUp("w"))
+        if (Input.GetKeyUp("w") || Input.GetKeyUp("a") || Input.GetKeyUp("d"))
         {
-            Stop("walking");
-            print("stop walking");
+            walkCounter--;
+            if (walkCounter == 0)
+            {
+                Stop("walking");
+                walkingActive = false;
+                print("stop walking");
+            }
         }
 
-        // left
-        if (Input.GetKeyDown("a"))
-        {
-            PlayLoop("walking");
-            print("start walking");
-        }
-        if (Input.GetKeyUp("a"))
-        {
-            Stop("walking");
-            print("stop walking");
-        }
 
-        // right
-        if (Input.GetKeyDown("d"))
-        {
-            PlayLoop("walking");
-            print("start walking");
-        }
-        if (Input.GetKeyUp("d"))
-        {
-            Stop("walking");
-            print("stop walking");
-        }
+
         //jumping
         if (Input.GetKeyDown("space"))
         {
@@ -120,20 +115,32 @@ public class AudioManager : MonoBehaviour
         if (Input.GetKeyUp("space"))
         {
             Stop("jump");
-            Play("walking");
+            if (walkingActive && sprintAcive == false)
+            {
+                PlayLoop("walking");
+            } else if(sprintAcive)
+            {
+                PlayLoop("running");
+            }
             print("stop jump");
         }
 
         //running
-        if (Input.GetKeyDown("left shift"))
+        if (Input.GetKeyDown("left shift") && walkingActive)
         {
+           
             Stop("walking");
+            sprintAcive = true;
             PlayLoop("running");
             print("start running");
+            
         }
-        if (Input.GetKeyUp("left shift"))
+
+        if (Input.GetKeyUp("left shift") && walkingActive )
         {
             Stop("running");
+            sprintAcive = false;
+            PlayLoop("walking");
             print("stop running");
         }
     }
