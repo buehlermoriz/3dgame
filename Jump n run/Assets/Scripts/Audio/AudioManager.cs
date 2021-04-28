@@ -20,7 +20,6 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     public void Play(string name)
     {
 
@@ -30,7 +29,26 @@ public class AudioManager : MonoBehaviour
             Debug.Log("Sound: '"+name+"' not found");
             return;
         }
-        s.source.Play();
+        if (!s.isPlaying)
+        {
+            s.source.Play();
+            s.isPlaying = true;
+        }
     }
+
+    public void Stop(string name)
+    {
+
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        if (s == null)
+        {
+            Debug.Log("Sound: '" + name + "' not found");
+            return;
+        }
+        s.source.Stop();
+        s.isPlaying = false;
+    }
+
+
 
 }
