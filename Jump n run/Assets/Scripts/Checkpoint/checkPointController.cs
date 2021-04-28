@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class checkpointController : MonoBehaviour
 {
-    public GameObject DisplayCheckpointMessage;
+
     private GameObject[] checkPointObjects;
-
-
 
     void Awake()
     {

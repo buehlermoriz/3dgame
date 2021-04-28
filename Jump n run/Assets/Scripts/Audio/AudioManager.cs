@@ -1,6 +1,7 @@
 using UnityEngine.Audio;
 using UnityEngine;
 using System;
+using System.Collections;
 
 public class AudioManager : MonoBehaviour
 {
@@ -13,7 +14,11 @@ public class AudioManager : MonoBehaviour
 
     private bool walkingActive = false;
 
-    private bool sprintAcive = false;
+    private bool sprintActive = false;
+
+    private bool shiftPressed = false;
+
+    private bool jumpActive = false;
 
     // Start is called before the first frame update
     void Awake()
@@ -84,11 +89,19 @@ public class AudioManager : MonoBehaviour
         {
             walkCounter++;
 
-            if (sprintAcive == false)
+            if (sprintActive == false)
             {
                 walkingActive = true;
                 PlayLoop("walking");
                 print("start walking");
+            }
+            if (shiftPressed && walkingActive && !jumpActive)
+            {
+                //This happens if the player startet pressing shift before beginning to walk
+                Stop("walking");
+                walkingActive = false;
+                PlayLoop("running");
+                sprintActive = true;
             }
         }
         if (Input.GetKeyUp("w") || Input.GetKeyUp("a") || Input.GetKeyUp("d"))
@@ -98,6 +111,8 @@ public class AudioManager : MonoBehaviour
             {
                 Stop("walking");
                 walkingActive = false;
+                Stop("running");
+                sprintActive = false;
                 print("stop walking");
             }
         }
@@ -107,42 +122,72 @@ public class AudioManager : MonoBehaviour
         //jumping
         if (Input.GetKeyDown("space"))
         {
+            jumpActive = true;
             Play("jump");
             Stop("walking");
             Stop("running");
             print("start jump");
+
+            StartCoroutine(ResumeSoundAfterJump(1.2f));
         }
+
         if (Input.GetKeyUp("space"))
         {
-            Stop("jump");
-            if (walkingActive && sprintAcive == false)
-            {
-                PlayLoop("walking");
-            } else if(sprintAcive)
-            {
-                PlayLoop("running");
-            }
-            print("stop jump");
+
         }
 
         //running
-        if (Input.GetKeyDown("left shift") && walkingActive)
+        if (Input.GetKeyDown("left shift"))
         {
-           
-            Stop("walking");
-            sprintAcive = true;
-            PlayLoop("running");
-            print("start running");
-            
+            shiftPressed = true;
+            if (walkingActive)
+            {
+                Stop("walking");
+                sprintActive = true;
+                PlayLoop("running");
+                print("start running");
+            }
+
         }
 
-        if (Input.GetKeyUp("left shift") && walkingActive )
+        if (Input.GetKeyUp("left shift"))
         {
-            Stop("running");
-            sprintAcive = false;
-            PlayLoop("walking");
-            print("stop running");
+            shiftPressed = false;
+            if (walkingActive)
+            {
+                Stop("running");
+                sprintActive = false;
+                PlayLoop("walking");
+                print("stop running");
+            } else
+            {
+                Stop("running");
+                sprintActive = false;
+                Stop("walking");
+                print("stop running and walking");
+            }
+            
+
         }
+    }
+
+    IEnumerator ResumeSoundAfterJump(float time)
+    {
+        yield return new WaitForSeconds(time);
+        
+        Stop("jump");
+        jumpActive = false;
+
+        if (walkingActive && sprintActive == false)
+        {
+            PlayLoop("walking");
+        }
+        else if (sprintActive)
+        {
+            PlayLoop("running");
+        }
+        print("stop jump");
+
     }
 
 
