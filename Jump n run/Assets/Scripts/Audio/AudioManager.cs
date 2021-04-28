@@ -49,6 +49,21 @@ public class AudioManager : MonoBehaviour
         s.isPlaying = false;
     }
 
+    //for playing reactive sounds
+    void Update()
+    {
+        if (Input.GetKeyDown("space"))
+        {
+            Play("click");
+            Debug.Log("Space key was pressed");
+        }
 
+        if (Input.GetKeyUp("space"))
+        {
+            Stop("click");
+            print("Space key was released");
+        }
+    }
+    
 
 }
