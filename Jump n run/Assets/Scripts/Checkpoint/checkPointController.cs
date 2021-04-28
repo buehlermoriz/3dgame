@@ -17,7 +17,7 @@ public class checkpointController : MonoBehaviour
         sound = FindObjectOfType<AudioManager>();
         DisplayCheckpointMessage=GameObject.Find("checkpointReached");
         //disable onscreen message
-        DisplayCheckpointMessage.SetActive(false);
+        //DisplayCheckpointMessage.SetActive(false);
         //define object references
         player = GameObject.FindWithTag("Player");
 
