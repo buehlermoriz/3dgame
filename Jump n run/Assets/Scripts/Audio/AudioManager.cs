@@ -57,12 +57,12 @@ public class AudioManager : MonoBehaviour
     void Update()
     {
         //walking
-        if (Input.GetKeyDown("w"))
+        if (Input.GetKeyDown("w") || Input.GetKeyDown("a") || Input.GetKeyDown("d"))
         {
             Play("walking");
             print("start walking");
         }
-        if (Input.GetKeyUp("w"))
+        if (Input.GetKeyUp("w") | Input.GetKeyUp("a") | Input.GetKeyUp("d"))
         {
             Stop("walking");
             print("stop walking");
@@ -72,11 +72,14 @@ public class AudioManager : MonoBehaviour
         if (Input.GetKeyDown("space"))
         {
             Play("jump");
+            Stop("walking");
+            Stop("running");
             print("start jump");
         }
         if (Input.GetKeyUp("space"))
         {
             Stop("jump");
+            //Play("walking");
             print("stop jump");
         }
 
