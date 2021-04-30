@@ -142,7 +142,7 @@ public class AudioManager : MonoBehaviour
         if (Input.GetKeyUp("left shift"))
         {
             shiftPressed = false;
-            if (walkingActive)
+            if (walkingActive && !jumpActive)
             {
                 Stop("running");
                 PlayLoop("walking");
