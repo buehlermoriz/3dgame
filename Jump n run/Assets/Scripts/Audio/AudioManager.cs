@@ -10,13 +10,15 @@ public class AudioManager : MonoBehaviour
 
     private string keyInput;
 
-    private int walkCounter = 0;
-
     private bool walkingActive = false;
 
     private bool shiftPressed = false;
 
     private bool jumpActive = false;
+
+    private float horizontalInput;
+
+    private float verticalInput;
 
     // Start is called before the first frame update
     void Awake()
@@ -81,10 +83,11 @@ public class AudioManager : MonoBehaviour
     //for playing reactive sounds
     void Update()
     {
+        horizontalInput = Input.GetAxis("Horizontal");
+        verticalInput = Input.GetAxis("Vertical");
         //walking
-        if (Input.GetKeyDown("w") || Input.GetKeyDown("a") || Input.GetKeyDown("d"))
+        if (verticalInput != 0 || horizontalInput != 0)
         {
-            walkCounter++;
 
                 walkingActive = true;
                 if (!jumpActive)
@@ -101,16 +104,13 @@ public class AudioManager : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyUp("w") || Input.GetKeyUp("a") || Input.GetKeyUp("d"))
+        if (verticalInput == 0  && horizontalInput == 0)
         {
-            walkCounter--;
-            if (walkCounter == 0)
-            {
+
                 Stop("walking");
                 walkingActive = false;
                 Stop("running");
                 print("stop walking");
-            }
         }
 
 
