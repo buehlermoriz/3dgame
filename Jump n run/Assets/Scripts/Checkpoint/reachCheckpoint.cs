@@ -36,7 +36,7 @@ public class reachCheckpoint : MonoBehaviour
             }
 
 
-            if (checkpointReached == false)
+            if (!checkpointReached)
             {
                 checkpointReached = true;
                 //Display UI
