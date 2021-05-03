@@ -2,6 +2,7 @@ using UnityEngine.Audio;
 using UnityEngine;
 using System;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -30,6 +31,17 @@ public class AudioManager : MonoBehaviour
             s.source.clip = s.clip;
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
+        }
+
+        if(SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            PlayLoop("Ambiente");
+        } else if (SceneManager.GetActiveScene().buildIndex == 4)
+        {
+            PlayLoop("AmbienteSandy");
+        } else
+        {
+            Debug.Log("Sound: Ambiente or AmbienteSandy not found");
         }
     }
 
@@ -86,7 +98,7 @@ public class AudioManager : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
         //walking
-        if (verticalInput != 0 || horizontalInput != 0)
+        if (verticalInput != 0 && !walkingActive|| horizontalInput != 0 && !walkingActive)
         {
 
                 walkingActive = true;
@@ -104,9 +116,8 @@ public class AudioManager : MonoBehaviour
             }
         }
 
-        if (verticalInput == 0  && horizontalInput == 0)
+        if (verticalInput == 0  && horizontalInput == 0 && walkingActive)
         {
-
                 Stop("walking");
                 walkingActive = false;
                 Stop("running");
