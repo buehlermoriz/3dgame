@@ -10,6 +10,7 @@ public class reachCheckpoint : MonoBehaviour
     private GameObject player;
     private int playerProgress;
     private string checkpointName;
+    private string[] splitCheckpointName;
     private int checkpointNumber;
 
     void Start()
@@ -19,7 +20,8 @@ public class reachCheckpoint : MonoBehaviour
         player = GameObject.FindWithTag("Player");
 
         checkpointName = this.name;
-        checkpointNumber = int.Parse(checkpointName.Substring(checkpointName.Length - 1));
+        splitCheckpointName= checkpointName.Split(' ');
+        checkpointNumber = int.Parse(splitCheckpointName[1]);
     }
     void OnTriggerEnter(Collider plyr)
     {
