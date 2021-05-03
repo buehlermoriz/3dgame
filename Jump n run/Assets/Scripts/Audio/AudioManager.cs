@@ -2,6 +2,7 @@ using UnityEngine.Audio;
 using UnityEngine;
 using System;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -30,6 +31,17 @@ public class AudioManager : MonoBehaviour
             s.source.clip = s.clip;
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
+        }
+
+        if(SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            PlayLoop("Ambiente");
+        } else if (SceneManager.GetActiveScene().buildIndex == 4)
+        {
+            PlayLoop("AmbienteSandy");
+        } else
+        {
+            Debug.Log("Sound: Ambiente or AmbienteSandy not found");
         }
     }
 
