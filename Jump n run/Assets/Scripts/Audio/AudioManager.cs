@@ -86,7 +86,7 @@ public class AudioManager : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
         //walking
-        if (verticalInput != 0 || horizontalInput != 0)
+        if (verticalInput != 0 && !walkingActive|| horizontalInput != 0 && !walkingActive)
         {
 
                 walkingActive = true;
@@ -104,9 +104,8 @@ public class AudioManager : MonoBehaviour
             }
         }
 
-        if (verticalInput == 0  && horizontalInput == 0)
+        if (verticalInput == 0  && horizontalInput == 0 && walkingActive)
         {
-
                 Stop("walking");
                 walkingActive = false;
                 Stop("running");
