@@ -26,6 +26,7 @@ public class reachCheckpoint : MonoBehaviour
         
         if (plyr.gameObject.tag == "Player")
         {
+             
 
             playerProgress = PlayerPrefs.GetInt("progress");
             //if the player the last checkpoint the player has reached is unequal to this one, set the progress accordingly
@@ -39,11 +40,13 @@ public class reachCheckpoint : MonoBehaviour
             if (!checkpointReached)
             {
                 checkpointReached = true;
+               //play sound
+                sound.Play("checkpoint");
                 //Display UI
                 DisplayCheckpointMessage.SetActive(true);
                 StartCoroutine(ExecuteAfterTime(3));
-                //play sound
-                sound.Play("checkpoint");
+             
+                
             }
         }
     }
@@ -51,5 +54,6 @@ public class reachCheckpoint : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         DisplayCheckpointMessage.SetActive(false);
+        sound.Stop("checkpoint");
     }
 }
