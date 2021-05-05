@@ -17,7 +17,7 @@ void Start () {
     void OnTriggerEnter (Collider plyr) {
     if(plyr.gameObject.tag == "Player"){  
     player.transform.parent = transform;
-    moveUp();}
+    }
     }
     void OnTriggerExit (Collider plyr){
         if(plyr.gameObject.tag == "Player"){  
@@ -26,9 +26,7 @@ void Start () {
     }
     
 
-public void moveUp (){
-        animator.SetTrigger("moveUp");
-    }
+
     
 
 }
