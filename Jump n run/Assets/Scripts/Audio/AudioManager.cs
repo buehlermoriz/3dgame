@@ -38,6 +38,7 @@ public class AudioManager : MonoBehaviour
             PlayLoop("Ambiente");
         } else if (SceneManager.GetActiveScene().buildIndex == 4)
         {
+            Stop("Ambiente");
             PlayLoop("AmbienteSandy");
         } else
         {
