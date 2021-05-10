@@ -32,8 +32,12 @@ public class AudioManager : MonoBehaviour
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
         }
+        if (SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            Play("waltz");
+        }
 
-        if(SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 3)
+        if (SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 3)
         {
             PlayLoop("Ambiente");
         } else if (SceneManager.GetActiveScene().buildIndex == 4)
