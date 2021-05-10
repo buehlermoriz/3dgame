@@ -33,7 +33,7 @@ void Start () {
      StartCoroutine(OutroPlane(6));
      StartCoroutine(fadeBlack(20));
      StartCoroutine(startAnimation(24));
-    StartCoroutine(toMenu(50));
+    StartCoroutine(toMenu(74));
 
     }
     
