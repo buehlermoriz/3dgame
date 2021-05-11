@@ -2,30 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class reachCheckpoint : MonoBehaviour
+public class reachCheckpointWorld1 : MonoBehaviour
 {
     public GameObject DisplayCheckpointMessage;
     private bool checkpointReached = false;
-    private AudioManager sound;
+    private AudioSource sound;
     private GameObject player;
     private int playerProgress;
     private string checkpointName;
+    private string[] splitCheckpointName;
     private int checkpointNumber;
 
     void Start()
     {
-        sound = FindObjectOfType<AudioManager>();
+        sound = GetComponent<AudioSource>();
         DisplayCheckpointMessage.SetActive(false);
         player = GameObject.FindWithTag("Player");
 
         checkpointName = this.name;
-        checkpointNumber = int.Parse(checkpointName.Substring(checkpointName.Length - 1));
+        splitCheckpointName= checkpointName.Split(' ');
+        checkpointNumber = int.Parse(splitCheckpointName[1]);
     }
     void OnTriggerEnter(Collider plyr)
     {
         
         if (plyr.gameObject.tag == "Player")
         {
+             
 
             playerProgress = PlayerPrefs.GetInt("progress");
             //if the player the last checkpoint the player has reached is unequal to this one, set the progress accordingly
@@ -36,14 +39,16 @@ public class reachCheckpoint : MonoBehaviour
             }
 
 
-            if (checkpointReached == false)
+            if (!checkpointReached)
             {
                 checkpointReached = true;
+               //play sound
+                sound.Play();
                 //Display UI
                 DisplayCheckpointMessage.SetActive(true);
                 StartCoroutine(ExecuteAfterTime(3));
-                //play sound
-                sound.Play("checkpoint");
+             
+                
             }
         }
     }
@@ -51,5 +56,6 @@ public class reachCheckpoint : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         DisplayCheckpointMessage.SetActive(false);
+        sound.Stop();
     }
 }
